@@ -22,9 +22,7 @@ Due for release early October 2023.
       * It will take you to MC. Log in as the normal user.
       * the browser will close and you will be taken back to DS.
       * When you upload robots to MC, your user name will appear in modified column in MC/robots/repository, if you unhide the *created by* or *modified by* column.
-    You don't have to log in to DS any time in the future.
-    * only 
-    * You can remove the DS token in MC/Admin
+      * You don't have to log in to DS any time in the future.
   * "Message of the Day" feature added. 
     * This is a message from the MC Admin to any user that logs into the MC. These messages are not visible in DS.
     * This will also help with communicating to RPA Cloud users.
