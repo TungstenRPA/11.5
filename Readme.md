@@ -5,7 +5,7 @@ Due for release early October 2023.
   * Robots can now run **stand-alone** without a host Basic Engine Robot.
     * If your robot returns more than 1 result, you need to 
       * use the [Output Value](https://docshield.kofax.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_help/help_main/designstudio/c_dasoutputvaluestep.html) Step to return multiple values.
-      * you also need to remove the return types.
+      * you also need to remove the return types.  
       ![return types](images/ReturnTypes.png)
       * This means your robot can NO longer be called from a Basic Engine Robot, because the BER is expecting only 1 result being returned from the Return step.
       * it also means that your robot can return a mixture of various types.
