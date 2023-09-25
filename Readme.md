@@ -11,7 +11,23 @@ Due for release early October 2023.
   * The webkit(?) engine is still available for BER.
 * Management Console
   * New login for users using tokens.
-  * "Message of the Day" feature added. This will also help with communicating to RPA Cloud users.
+    * When opening DS for the first time, it transfers you to a webpage for the MC. If you are logged into to MC with admin, then you are automatically given a token for user "admin" in the DS.
+    * To login to DS as a normal user.
+      * login to MC as admin
+      * Create a user in MC/admin/users&groups/users.
+      * Create a group *developers* in MC/admin/users&groups/groups and add the user to this group.
+      * Add the group to roles in projects in MC/admin/projects.
+      * logout of MC.
+      * Start DS.
+      * It will take you to MC. Log in as the normal user.
+      * the browser will close and you will be taken back to DS.
+      * When you upload robots to MC, your user name will appear in modified column in MC/robots/repository, if you unhide the *created by* or *modified by* column.
+    You don't have to log in to DS any time in the future.
+    * only 
+    * You can remove the DS token in MC/Admin
+  * "Message of the Day" feature added. 
+    * This is a message from the MC Admin to any user that logs into the MC. These messages are not visible in DS.
+    * This will also help with communicating to RPA Cloud users.
 * Robot File System
   * RFS can now be access from embedded Excel.
   * Files can be uploaded from RFS to embedded Browser (CEF).
