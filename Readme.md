@@ -11,7 +11,8 @@ Due for release early October 2023.
       * it also means that your robot can return a mixture of various types.
       * The debugger only shows the latest 20 results per return Type. This amount can be changed.
       ![Max OutPut Values=20](images/MaxOutputValues.png)
-  * Robot Side Panels with Editors.
+  * Robot *Side Panel* with Editors. the robot config is now "floating" above the robot and not off to the left of the robot. You can view/edit robot settings within the middle of the robot.
+  ![Side Panel](images/SidePanel.png)
   * Chromium Embedded Framework (CEF) now has standalone executable for more frequent upgrading.
   * CEF has built in Debugger.
   * **Open Email** Step from BER has been added to Robots to allow easily handling of headers, subject, body and all attachments.
