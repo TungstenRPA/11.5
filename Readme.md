@@ -2,7 +2,7 @@
 Due for release early October 2023.
 ## New Features
 * Robots
-  * Robots can now run stand-alone without a host Basic Engine Robot.
+  * Robots can now run **stand-alone** without a host Basic Engine Robot.
     * If your robot returns more than 1 result, you need to 
       * use the [Output Value](https://docshield.kofax.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_help/help_main/designstudio/c_dasoutputvaluestep.html) Step to return multiple values.
       * you also need to remove the return types.
@@ -33,6 +33,7 @@ Due for release early October 2023.
       * You don't have to log in to DS any time in the future.
   * "Message of the Day" feature added. 
     * This is a message from the MC Admin to any user that logs into the MC. These messages are not visible in DS.
+    * colors and expiry date can be set.
     * This will also help with communicating to RPA Cloud users.
 * Robot File System
   * RFS can now be access from embedded Excel.
