@@ -13,6 +13,7 @@ Due for release early October 2023.
       ![Max OutPut Values=20](images/MaxOutputValues.png)
   * Robot Side Panels with Editors.
   * Chromium Embedded Framework (CEF) now has standalone executable for more frequent upgrading.
+  * CEF has built in Debugger.
   * **Open Email** Step from BER has been added to Robots to allow easily handling of headers, subject, body and all attachments.
 * Basic Engine Robot
   * The very old Classic Browser has been removed. it was deprecated in version 11.x?
