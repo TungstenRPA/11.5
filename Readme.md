@@ -3,6 +3,14 @@ Due for release early October 2023.
 ## New Features
 * Robots
   * Robots can now run stand-alone without a host Basic Engine Robot.
+    * If your robot returns more than 1 result, you need to 
+      * use the [Output Value](https://docshield.kofax.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_help/help_main/designstudio/c_dasoutputvaluestep.html) Step to return multiple values.
+      * you also need to remove the return types.
+      ![return types](images/ReturnTypes.png)
+      * This means your robot can NO longer be called from a Basic Engine Robot, because the BER is expecting only 1 result being returned from the Return step.
+      * it also means that your robot can return a mixture of various types.
+      * The debugger only shows the latest 20 results per return Type. This amount can be changed.
+      ![Max OutPut Values=20](images/MaxOutputValues.png)
   * Robot Side Panels with Editors.
   * Chromium Embedded Framework (CEF) now has standalone executable for more frequent upgrading.
   * **Open Email** Step from BER has been added to Robots to allow easily handling of headers, subject, body and all attachments.
