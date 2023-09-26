@@ -12,7 +12,9 @@ Due for release early October 2023.
       * The debugger only shows the latest 20 results per return Type. This amount can be changed.
       ![Max OutPut Values=20](images/MaxOutputValues.png)
   * Input Parameters now have **Test Values** and icons for Types.   
-  ![Alt text](images/TestValues.png)
+  ![Test Values](images/TestValues.png)
+  * Output Values are shown in State View.  
+  ![State View](images/StateView.png)
   * Robot *Side Panel* with Editors. the robot config is now "floating" above the robot and not off to the left of the robot. You can view/edit robot settings within the middle of the robot.  
   ![Side Panel](images/SidePanel.png)
   * Chromium Embedded Framework (CEF) now has standalone executable for more frequent upgrading. This will still require a patch created by Kofax, but it will be much easier to build and deliver.
