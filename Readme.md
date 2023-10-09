@@ -61,3 +61,4 @@ Due for release early October 2023.
   * Installing RPA on Windows on Docker is no longer supported.
   * Installing RPA on Ubuntu on Docker on Windows is supported.
   * Installing RPA on Ubuntu on Docker on Cloud is supported and how Kofax' own RPA Cloud works.
+  * tip: Delete postgres database if you want to change MC admin username/password from docker file, otherwise MC sees the persistent database and adds no new admin user.
