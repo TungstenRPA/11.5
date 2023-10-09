@@ -62,3 +62,12 @@ Due for release early October 2023.
   * Installing RPA on Ubuntu on Docker on Windows is supported.
   * Installing RPA on Ubuntu on Docker on Cloud is supported and how Kofax' own RPA Cloud works.
   * tip: Delete postgres database if you want to change MC admin username/password from docker file, otherwise MC sees the persistent database and adds no new admin user.
+  ## Roadmap
+  * RPA Cloud
+    * combined cloud and on-prem desktop automation.
+  * Low Code
+    * Providing simplified REST API handling to make it easier to connect to ChatGPT and other cloud services.
+      * low-code JSON payload creation.
+      * stateless authentication for wep apps and APIs,
+  * Simplify installation with embedded http server.
+
