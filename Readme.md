@@ -1,13 +1,7 @@
 # Kofax RPA 11.5
-Join us on **Tuesday 24 October 2023** for a webinar **Whats new in Kofax RPA 11.5**
-  * [Asia Pac](https://kofax.webex.com/weblink/register/r7b50877e055c867a143004afc3244c8b) New Zealand 5PM, Sydney 3PM, Tokyo 1PM, Singapore 12PM, Delhi 9:30AM.
-  * [Europe/MiddleEast/Africa](https://kofax.webex.com/weblink/register/r5b38549a63124ac849358de2aaaf593c) Dubai 1PM, Vienna 11AM, London 10AM.
-  * [Americas](https://kofax.webex.com/weblink/register/r7d7752503383cc8c2bca64eb6b57c38b) Brazil 3PM, Eastern Time 2PM, Pacific 11AM.  
-
-Kofax RPA 11.5.0.1 will be released late October, 2023.
-
-[[Documentation](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.5.0-nlfihq5gwr/RPA.htm)] [[Release Notes](https://docshield.kofax.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_rn/rpa_releasenotes/c_aboutthisrelease.html)] [[Download 11.4](https://delivery.kofax.com)] [[Free Trial License](https://www.kofax.com/products/rpa/rpa-free-trial)] [[DockerHub](https://hub.docker.com/u/kofax)]
-
+ [[Documentation](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.5.0-nlfihq5gwr/RPA.htm)] [[Release Notes](https://docshield.kofax.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_rn/rpa_releasenotes/c_aboutthisrelease.html)]  [[Download](https://delivery.kofax.com)] [[Free Trial License](https://www.kofax.com/products/rpa/rpa-free-trial)] [[Docker](https://github.com/kofaxrPA/Docker)] [[DockerHub](https://hub.docker.com/u/kofax)]  [[Community Forum](https://community.kofax.com/s/topic/0TO3m000000IznGGAS/robotic-process-automation?language=en_US)]   
+* What's New in Kofax RPA 11.5 [[Presentation and Video](https://kofax.app.bigtincan.com/lshare/eaRw9YWxqA4pb6QMJgXPT1fmt7hKtPF4gOPlvD3ZXr2n0oymV5)].
+* Kofax RPA 11.5.0.1 will be released late October, 2023.
 ## New Features
 ### Robots
   * Robots can now run **stand-alone** without a host Basic Engine Robot.
