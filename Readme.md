@@ -1,12 +1,14 @@
-# Kofax RPA 11.5
- [[Documentation](https://docshield.kofax.com/Portal/Products/en_US/RPA/11.5.0-nlfihq5gwr/RPA.htm)] [[Release Notes](https://docshield.kofax.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_rn/rpa_releasenotes/c_aboutthisrelease.html)]  [[Download](https://delivery.kofax.com)] [[Free Trial License](https://www.kofax.com/products/rpa/rpa-free-trial)] [[Docker](https://github.com/kofaxrPA/Docker)] [[DockerHub](https://hub.docker.com/u/kofax)]  [[Community Forum](https://community.kofax.com/s/topic/0TO3m000000IznGGAS/robotic-process-automation?language=en_US)]   
-* What's New in Kofax RPA 11.5 [[Presentation and Video](https://kofax.app.bigtincan.com/lshare/eaRw9YWxqA4pb6QMJgXPT1fmt7hKtPF4gOPlvD3ZXr2n0oymV5)].
-* Kofax RPA 11.5.0.1 will be released late October, 2023.
+# Tungsten RPA 11.5
+[[Download](https://delivery.tungstenautomation.com)] [[Documentation](https://docshield.tungstenautomation.com/Portal/Products/en_US/RPA/11.5.0-nlfihq5gwr/RPA.htm)] [[Release Notes](https://docshield.tungstenautomation.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_rn/index.html)] [[Free Trial License](https://www.tungstenautomation.com/products/rpa/rpa-free-trial)] [[DockerHub](https://hub.docker.com/u/tungstenautomation)]  [[Knowledge Portal Quick Links](https://knowledge.tungstenautomation.com/bundle/z-kb-articles-salesforce9/page/34865.html)]
+* Tungsten RPA 11.5 was released on Oct 04, 2023
+  * [What's New in RPA 11.5](https://docshield.tungstenautomation.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_rn/rpa_releasenotes/c_newfeatures.html)
+* Tungsten RPA 11.5.0.6 was released on Feb 08, 2025
+  * [RPA 11.5.0 Fix Pack 6 Release Notes](https://docshield.tungstenautomation.com/RPA/en_US/11.5.0-nlfihq5gwr/print/ReadMe-KofaxRPA-11.5.0.6.htm)
 ## New Features
 ### Robots
   * Robots can now run **stand-alone** without a host Basic Engine Robot.
     * If your robot returns more than 1 result, you need to 
-      * use the [Output Value](https://docshield.kofax.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_help/help_main/designstudio/c_dasoutputvaluestep.html) Step to return multiple values.
+      * use the [Output Value](https://docshield.tungstenautomation.com/RPA/en_US/11.5.0-nlfihq5gwr/help/rpa_help/help_main/designstudio/c_dasoutputvaluestep.html) Step to return multiple values.
       * you also need to remove the return types.  
       ![return types](images/ReturnTypes.png)
       * This means your robot can NO longer be called from a Basic Engine Robot, because the BER is expecting only 1 result being returned from the Return step.
